@@ -6,7 +6,7 @@ from visualizer import plot_sales_forecast
 # --- KONFIGURASI HALAMAN ---
 st.set_page_config(page_title="Asisten Restock & Ramalan UMKM", page_icon="📦", layout="wide")
 
-st.title("📦 Peramal Penjualan & Rekomendasi Restock UMKM")
+st.title("📦 Prediksi Penjualan & Rekomendasi Restock UMKM")
 
 # --- SIDEBAR: INPUT & PARAMETER ---
 st.sidebar.header("1. Sumber Data Transaksi")
