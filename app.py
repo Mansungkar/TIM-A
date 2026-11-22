@@ -15,7 +15,6 @@ uploaded_file = st.sidebar.file_uploader("Unggah file CSV atau Excel (.xlsx)", t
 try:
     df = load_and_clean_data(uploaded_file)
     if uploaded_file is None:
-        st.info("ℹ️ Menggunakan **data simulasi** (6 bulan terakhir). Unggah file CSV/Excel di sidebar untuk menggunakan data tokomu sendiri.")
 except Exception as e:
     st.error(f"Gagal memproses file: {e}")
     st.stop()
