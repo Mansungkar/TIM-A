@@ -7,7 +7,6 @@ from visualizer import plot_sales_forecast
 st.set_page_config(page_title="Asisten Restock & Ramalan UMKM", page_icon="📦", layout="wide")
 
 st.title("📦 Peramal Penjualan & Rekomendasi Restock UMKM")
-st.markdown("Unggah data riwayat transaksi harian (minimal 6 bulan) untuk memprediksi permintaan dan menghitung saran kulakan.")
 
 # --- SIDEBAR: INPUT & PARAMETER ---
 st.sidebar.header("1. Sumber Data Transaksi")
